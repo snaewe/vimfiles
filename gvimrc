@@ -1,7 +1,11 @@
 colorscheme molokai
 "colorscheme zenburn
+if has("win32")
+  set guifont=Source_Code_Pro:h9:cANSI
+  au GUIEnter * simalt ~x
+else
 " set lines=53
 " set columns=170
-" winpos 23 12
-set guifont=Source_Code_Pro:h9:cANSI
-au GUIEnter * simalt ~x
+  winpos 30 30
+  set guifont=Monospace\ 11
+endif

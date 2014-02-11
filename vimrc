@@ -26,7 +26,6 @@ set list
 autocmd BufNewFile,BufRead .gitconfig.* setf gitconfig
 " .md is Markdown
 au BufNewFile,BufRead *.md,*.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn, setf markdown
-set guifont=Consolas:h9:cANSI
 colorscheme molokai
 
 so <sfile>:h/cmake-help.vim
