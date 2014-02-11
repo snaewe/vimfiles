@@ -1,4 +1,4 @@
-nmap ,hc :call OpenCmakeHelp()<CR>
+nmap <Leader>hc :call OpenCmakeHelp()<CR>
 
 function! OpenCmakeHelp()
     let s = getline( '.' )
