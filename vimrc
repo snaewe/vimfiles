@@ -32,6 +32,7 @@ autocmd BufNewFile,BufRead .gitconfig.* setf gitconfig
 " .md is Markdown
 au BufNewFile,BufRead *.md,*.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn, setf markdown
 colorscheme molokai
+set laststatus=2
 
 so <sfile>:h/cmake-help.vim
 so <sfile>:h/disable-cursorkeys.vim
@@ -49,4 +50,4 @@ nmap <silent> <Leader>n :nohls<CR>
 nmap <silent> <Leader>ww :set invwrap<CR>:set wrap?<CR>
 " Edit the vimrc file
 nmap <silent> <Leader>ev :e $MYVIMRC<CR>
-nmap <silent> <Leadersv :so $MYVIMRC<CR>
+nmap <silent> <Leader>sv :so $MYVIMRC<CR>
