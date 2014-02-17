@@ -1,5 +1,9 @@
 let g:loaded_gitgutter = 1
-execute pathogen#infect("~/vimfiles/bundle/{}")
+if has("win32")
+  execute pathogen#infect("~/vimfiles/bundle/{}")
+else
+  execute pathogen#infect()
+endif
 " syntax on
 filetype plugin indent on
 set nocompatible
