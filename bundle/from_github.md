@@ -1,16 +1,16 @@
-* **ctrlp.vim**:       `git clone https://github.com/kien/ctrlp.vim`
-* **nerdtree**:        `git clone https://github.com/scrooloose/nerdtree`
-* **unite.vim**:       `git clone https://github.com/Shougo/unite.vim`
-* **vim-airline**:     `git clone https://github.com/bling/vim-airline`
-* **vim-commentary**:  `git clone https://github.com/tpope/vim-commentary`
-* **vim-dispatch**:    `git clone https://github.com/tpope/vim-dispatch`
-* **vim-endwise**:     `git clone https://github.com/tpope/vim-endwise`
-* **vim-fswitch**:     `git clone https://github.com/derekwyatt/vim-fswitch.git`
-* **vim-fugitive**:    `git clone https://github.com/tpope/vim-fugitive.git`
-* **vim-git**:         `git clone https://github.com/tpope/vim-git.git`
-* **vim-gitgutter**:   `git clone https://github.com/airblade/vim-gitgutter`
-* **vim-pathogen**:    `git clone https://github.com/tpope/vim-pathogen.git`
-* **vim-repeat**:      `git clone https://github.com/tpope/vim-repeat`
-* **vim-surround**:    `git clone https://github.com/tpope/vim-surround.git`
-* **vim-unimpaired**:  `git clone https://github.com/tpope/vim-unimpaired`
-* **vim-vinegar**:     `git clone https://github.com/tpope/vim-vinegar`
+* **ctrlp.vim**:       `git clone https://github.com/kien/ctrlp.vim ctrlp.vim`
+* **nerdtree**:        `git clone https://github.com/scrooloose/nerdtree nerdtree`
+* **unite.vim**:       `git clone https://github.com/Shougo/unite.vim unite.vim`
+* **vim-airline**:     `git clone https://github.com/bling/vim-airline vim-airline`
+* **vim-commentary**:  `git clone https://github.com/tpope/vim-commentary vim-commentary`
+* **vim-dispatch**:    `git clone https://github.com/tpope/vim-dispatch vim-dispatch`
+* **vim-endwise**:     `git clone https://github.com/tpope/vim-endwise vim-endwise`
+* **vim-fswitch**:     `git clone https://github.com/derekwyatt/vim-fswitch.git vim-fswitch`
+* **vim-fugitive**:    `git clone https://github.com/tpope/vim-fugitive.git vim-fugitive`
+* **vim-git**:         `git clone https://github.com/tpope/vim-git.git vim-git`
+* **vim-gitgutter**:   `git clone https://github.com/airblade/vim-gitgutter vim-gitgutter`
+* **vim-pathogen**:    `git clone https://github.com/tpope/vim-pathogen.git vim-pathogen`
+* **vim-repeat**:      `git clone https://github.com/tpope/vim-repeat vim-repeat`
+* **vim-surround**:    `git clone https://github.com/tpope/vim-surround.git vim-surround`
+* **vim-unimpaired**:  `git clone https://github.com/tpope/vim-unimpaired vim-unimpaired`
+* **vim-vinegar**:     `git clone https://github.com/tpope/vim-vinegar vim-vinegar`
