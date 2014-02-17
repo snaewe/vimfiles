@@ -1,3 +1,4 @@
+let g:loaded_gitgutter = 1
 execute pathogen#infect("~/vimfiles/bundle/{}")
 " syntax on
 filetype plugin indent on
