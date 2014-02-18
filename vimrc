@@ -4,7 +4,7 @@ if has("win32")
 else
   execute pathogen#infect()
 endif
-" syntax on
+syntax on
 filetype plugin indent on
 set nocompatible
 set tabstop=2
