@@ -9,3 +9,4 @@ else
   winpos 30 30
   set guifont=Monospace\ 11
 endif
+so <sfile>:h/visual_studio/visual_studio.vim

@@ -9,7 +9,7 @@ mgraz.vim@plan10.com
 import os, re, sys, time, pywintypes, win32com.client
 
 import logging
-_logging_enabled = True
+_logging_enabled = False
 if _logging_enabled:
     import tempfile
     _filename_log = os.path.join (tempfile.gettempdir(), 'visual_studio.log')
