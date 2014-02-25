@@ -33,6 +33,9 @@ autocmd BufNewFile,BufRead .gitconfig.* setf gitconfig
 au BufNewFile,BufRead *.md,*.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn, setf markdown
 colorscheme molokai
 set laststatus=2
+set scrolloff=10
+set noswapfile
+set nobackup
 
 so <sfile>:h/cmake-help.vim
 so <sfile>:h/disable-cursorkeys.vim
