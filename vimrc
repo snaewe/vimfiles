@@ -32,7 +32,9 @@ autocmd BufNewFile,BufRead .gitconfig.* setf gitconfig
 " .md is Markdown
 au BufNewFile,BufRead *.md,*.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn, setf markdown
 colorscheme molokai
+" always display status line
 set laststatus=2
+" start scrolling when <scrolloff> lines away from top or bottom
 set scrolloff=10
 set noswapfile
 set nobackup
@@ -54,3 +56,16 @@ nmap <silent> <Leader>ww :set invwrap<CR>:set wrap?<CR>
 " Edit the vimrc file
 nmap <silent> <Leader>ev :e $MYVIMRC<CR>
 nmap <silent> <Leader>sv :so $MYVIMRC<CR>
+nmap <silent> <F8> :TagbarToggle<CR>
+
+" vim -b : edit binary using xxd-format!
+augroup Binary
+  au!
+  au BufReadPre  *.dll let &bin=1
+  au BufReadPost *.dll if &bin | %!xxd
+  au BufReadPost *.dll set ft=xxd | endif
+  au BufWritePre *.dll if &bin | %!xxd -r
+  au BufWritePre *.dll endif
+  au BufWritePost *.dll if &bin | %!xxd
+  au BufWritePost *.dll set nomod | endif
+augroup END
