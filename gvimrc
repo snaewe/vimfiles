@@ -10,3 +10,4 @@ else
   winpos 30 30
   set guifont=Monospace\ 11
 endif
+set guioptions-=T
