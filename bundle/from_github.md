@@ -14,3 +14,4 @@
 * **vim-surround**:    `git clone https://github.com/tpope/vim-surround.git vim-surround`
 * **vim-unimpaired**:  `git clone https://github.com/tpope/vim-unimpaired vim-unimpaired`
 * **vim-vinegar**:     `git clone https://github.com/tpope/vim-vinegar vim-vinegar`
+* **tagbar**:          `git clone https://github.com/majutsushi/tagbar.git tagbar`
