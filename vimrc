@@ -1,4 +1,6 @@
-let g:loaded_gitgutter = 1
+if has("gui") == 0
+  let g:loaded_gitgutter = 1
+endif
 if has("win32")
   execute pathogen#infect("~/vimfiles/bundle/{}")
 else
