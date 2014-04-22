@@ -1,5 +1,5 @@
 #!/bin/sh
 for r in $@; do
   test -d $r/.git &&
-    (cd $r; git fetch origin && git checkout origin/master)
+    (echo -n $r": " ; cd $r; git fetch -q origin && git checkout origin/master)
 done
