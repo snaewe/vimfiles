@@ -71,3 +71,7 @@ augroup Binary
   au BufWritePost *.dll if &bin | %!xxd
   au BufWritePost *.dll set nomod | endif
 augroup END
+
+if filereadable(expand("<sfile>:h") . "/vimrc.local")
+  so <sfile>:h/vimrc.local
+endif
