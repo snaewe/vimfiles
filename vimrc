@@ -34,7 +34,7 @@ set list
 autocmd BufNewFile,BufRead .gitconfig.* setf gitconfig
 " .md is Markdown
 au BufNewFile,BufRead *.md,*.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn, setf markdown
-colorscheme molokai
+colorscheme morning
 " always display status line
 set laststatus=2
 " start scrolling when <scrolloff> lines away from top or bottom
