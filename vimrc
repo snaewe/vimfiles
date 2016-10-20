@@ -32,8 +32,6 @@ nnoremap <silent> <C-l> :<C-u>let @/=""<CR><C-l>
 set listchars=tab:>~,nbsp:_,trail:.
 set list
 autocmd BufNewFile,BufRead .gitconfig.* setf gitconfig
-" .md is Markdown
-au BufNewFile,BufRead *.md,*.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn, setf markdown
 colorscheme morning
 " always display status line
 set laststatus=2
